@@ -1,0 +1,16 @@
+name= (input ("What's your name? "))
+print("Hi",name)
+location =str.capitalize(input("Where do you live? "))
+if location  == "Saaremaa":
+    print("Very nice!")
+elif location == "Siber":
+    print("You can't leave, Noob")
+else:
+    print("UHh"",", location , "," "Come Saaremaa Please")
+age = input("How old are you? ")
+if age < "18":
+    print("You Noob, you can't make driving licence")
+elif age == "18":
+    print("Very Noice")
+else:
+    print("Gj m8, I hope never drive, ")
